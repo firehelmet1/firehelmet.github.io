@@ -1,0 +1,98 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Calibri, Arial;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #f4f2c6;
+}
+
+header {
+  background: #000080;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 10%
+}
+
+a {
+  color: #d21034;
+}
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  font-size: 14px;  
+  width: 25%;
+}
+
+#paragraph-info {
+  font-size: 18px;  
+  width: 45%;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  text-align: left;
+}
+
+#table-info {
+  font-size: 18px;  
+  width: 45%;
+  position: absolute;
+  top: 300px;
+  right: 20px;
+  text-align: left
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+#bio-image2 {
+  width: 250px;
+  height: 200px;
+  position: absolute;  
+  margin-left: 120px;
+}
